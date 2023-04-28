@@ -14,7 +14,6 @@ variable "sample_list" {
     100,
     "Bala",
     true,
-    1.2.3,
   ]
 }
 
