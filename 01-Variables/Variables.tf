@@ -2,7 +2,12 @@
 variable "sample_string" {
   default = "Hello World"
 }
-
+variable "sample_number" {
+  default = 100
+}
+variable "sample_boolean" {
+  default = true
+}
 
 # To print in shell we use, echo $sample_string
 output "sample_string" {
