@@ -17,4 +17,14 @@ variable "sample_list" {
   ]
 }
 
+# dictionary or map: single variable will have multiple values, each value will have seperate names. This it the most preferred variable over the list when declare data
+variable "sample_dict" {
+  default = {
+    number1 = 100
+    string1 = "Bala"
+    number2 = 123
+    boolean1 = true
+  }
+}
+
 
